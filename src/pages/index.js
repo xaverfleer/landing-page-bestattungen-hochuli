@@ -27,22 +27,28 @@ const IndexPage = () => (
     <div id="main">
       <section id="top" className="one dark cover">
         <div className="container">
-          <header>
-            <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
-              <br />
-              Web developer
-            </h2>
-            <p>I have made few things check it out.</p>
-          </header>
-
-          <footer>
-            <Scroll type="id" element={'portfolio'}>
-              <a href="#portfolio" className="button">
-                Show me
-              </a>
-            </Scroll>
-          </footer>
+          <h2 className="alt">
+            Hochuli <strong>Bestattungen</strong>
+            <br />
+          </h2>
+          <p>
+            <div>
+              Info: Durch die aktuelle Situation in der Schweiz, sind
+              Einschränkungen in Bezug auf Trauerfeiern und Beisetzung verfügt
+              worden. Diese können je nach Gemeinde unterschiedlich ausfallen.
+              Bitte nehmen Sie diesbezüglich mit uns Kontakt auf. Wir suchen mit
+              Ihnen nach Lösungen und sind mit all unseren Ressourcen für Sie da
+            </div>
+          </p>
+          <Scroll type="id" element={'portfolio'}>
+            <a href="#contact" className="button">
+              Kontakt
+            </a>
+          </Scroll>
+          <div>
+            Das Durchschnittliche gibt der Welt ihren Bestand, das
+            Aussergewöhnliche ihren Wert. — Oscar Wilde
+          </div>
         </div>
       </section>
 
