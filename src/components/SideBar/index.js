@@ -18,7 +18,7 @@ export default function SideBar({ sections = [] }) {
         <div className="top">
           <Header
             avatar={pic}
-            title={config.authorName}
+            title={config.clientName}
             heading={config.heading}
           />
           <Nav sections={sections} />
