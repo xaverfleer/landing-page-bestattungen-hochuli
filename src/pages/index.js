@@ -14,10 +14,10 @@ import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
-  { id: 'top', name: 'Intro', icon: 'fa-home' },
-  { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
-  { id: 'about', name: 'About Me', icon: 'fa-user' },
-  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  { id: 'Über uns', name: 'Über uns', icon: 'fa-home' },
+  { id: 'Todesfall', name: 'Todesfall', icon: 'fa-th' },
+  { id: 'Notwendiges', name: 'Notwendiges', icon: 'fa-user' },
+  { id: 'Kontakt', name: 'Kontakt', icon: 'fa-envelope' },
 ];
 
 const IndexPage = () => (
@@ -85,28 +85,6 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="about" className="three">
-        <div className="container">
-          <header>
-            <h2>About Me</h2>
-          </header>
-
-          <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a>
-
-          <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
-          </p>
-        </div>
-      </section>
-
       <section id="contact" className="four">
         <div className="container">
           <header>
@@ -130,10 +108,10 @@ const IndexPage = () => (
                 <input type="text" name="email" placeholder="Email" />
               </div>
               <div className="col-12">
-                <textarea name="message" placeholder="Message" />
+                <textarea name="message" placeholder="Nachricht" />
               </div>
               <div className="col-12">
-                <input type="submit" value="Send Message" />
+                <input type="submit" value="Nachricht senden" />
               </div>
             </div>
           </form>
