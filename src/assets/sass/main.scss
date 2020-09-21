@@ -379,6 +379,10 @@ br.clear {
   @include breakpoint('<=mobile') {
     width: 100%;
   }
+
+  > * {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Row */
