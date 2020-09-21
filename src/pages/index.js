@@ -32,13 +32,11 @@ const IndexPage = () => (
             <br />
           </h2>
           <p>
-            <div>
-              Info: Durch die aktuelle Situation in der Schweiz, sind
-              Einschränkungen in Bezug auf Trauerfeiern und Beisetzung verfügt
-              worden. Diese können je nach Gemeinde unterschiedlich ausfallen.
-              Bitte nehmen Sie diesbezüglich mit uns Kontakt auf. Wir suchen mit
-              Ihnen nach Lösungen und sind mit all unseren Ressourcen für Sie da
-            </div>
+            Info: Durch die aktuelle Situation in der Schweiz, sind
+            Einschränkungen in Bezug auf Trauerfeiern und Beisetzung verfügt
+            worden. Diese können je nach Gemeinde unterschiedlich ausfallen.
+            Bitte nehmen Sie diesbezüglich mit uns Kontakt auf. Wir suchen mit
+            Ihnen nach Lösungen und sind mit all unseren Ressourcen für Sie da.
           </p>
           <Scroll type="id" element={'portfolio'}>
             <a href="#contact" className="button">
