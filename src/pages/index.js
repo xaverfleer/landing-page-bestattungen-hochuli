@@ -88,7 +88,7 @@ const IndexPage = () => (
       <section id="contact" className="four">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Kontakt</h2>
           </header>
 
           <p>
