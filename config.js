@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "Bestattungen Hochuli",
   manifestName: "Prologue",
-  manifestShortName: "Landing", // max 12 characters
+  manifestShortName: "Landing Page", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: "#663399",
   manifestThemeColor: "#663399",
