@@ -5,12 +5,6 @@ import PageFooter from "../components/PageFooter";
 import SideBar from "../components/SideBar";
 
 import pic2 from "../assets/images/BeniHochuli.gif";
-import pic3 from "../assets/images/pic03.jpg";
-import pic4 from "../assets/images/pic04.jpg";
-import pic5 from "../assets/images/pic05.jpg";
-import pic6 from "../assets/images/pic06.jpg";
-import pic7 from "../assets/images/pic07.jpg";
-import pic8 from "../assets/images/pic08.jpg";
 import Scroll from "../components/Scroll";
 
 const sections = [
