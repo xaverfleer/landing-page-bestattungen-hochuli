@@ -40,16 +40,16 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
+  siteTitle: "Bestattungen Hochuli",
   ...
-  authorName: 'Anubhav Srivastava',
-  heading: 'Web Developer',
+  authorName: 'Xaver Fleer',
+  heading: 'Bestattungen Hochuli',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/xaverfleer',
     }
     ...
   ],
@@ -72,7 +72,7 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 - [gatsby-starter-newage](https://github.com/anubhavsrivastava/gatsby-starter-newage)
 - [gatsby-starter-stylish](https://github.com/anubhavsrivastava/gatsby-starter-stylish)
 - [gatsby-starter-solidstate](https://github.com/anubhavsrivastava/gatsby-starter-solidstate)
-- [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly) 
+- [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly)
 - [gatsby-starter-phantom](https://github.com/anubhavsrivastava/gatsby-starter-phantom)
 - [gatsby-starter-paradigmshift](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift)
 - [gatsby-starter-overflow](https://github.com/anubhavsrivastava/gatsby-starter-overflow)
