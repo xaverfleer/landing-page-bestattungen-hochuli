@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Bestattungen Hochuli",
+  siteTitle: "Hochuli Bestattungen",
   manifestName: "Prologue",
   manifestShortName: "Landing Page", // max 12 characters
   manifestStartUrl: "/",
@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: "src/assets/img/website-icon.gif",
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: "Xaver Fleer",
-  clientName: "Bestattungen Hochuli",
+  clientName: "Hochuli Bestattungen",
   heading: "Kanton Bern und Umgebung",
   // social
   socialLinks: [
