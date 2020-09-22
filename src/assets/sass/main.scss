@@ -1,11 +1,11 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
-@import 'libs/html-grid';
-@import url('font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600');
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/vendor";
+@import "libs/breakpoints";
+@import "libs/html-grid";
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
 	Prologue by HTML5 UP
@@ -161,7 +161,7 @@ q {
 
   &:before,
   &:after {
-    content: '';
+    content: "";
     content: none;
   }
 }
@@ -210,7 +210,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -221,8 +221,8 @@ body {
     *,
     *:before,
     *:after {
-      @include vendor('animation', 'none !important');
-      @include vendor('transition', 'none !important');
+      @include vendor("animation", "none !important");
+      @include vendor("transition", "none !important");
     }
   }
 }
@@ -230,7 +230,7 @@ body {
 input,
 textarea,
 select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -307,8 +307,8 @@ a {
   color: inherit;
   border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
   @include vendor(
-    'transition',
-    ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out')
+    "transition",
+    ("color 0.35s ease-in-out", "border-bottom-color 0.35s ease-in-out")
   );
   outline: 0;
 
@@ -360,23 +360,23 @@ br.clear {
   max-width: 100%;
   width: 1400px;
 
-  @include breakpoint('wide') {
+  @include breakpoint("wide") {
     width: 1200px;
   }
 
-  @include breakpoint('normal') {
+  @include breakpoint("normal") {
     width: 960px;
   }
 
-  @include breakpoint('narrow') {
+  @include breakpoint("narrow") {
     width: 100%;
   }
 
-  @include breakpoint('<=narrower') {
+  @include breakpoint("<=narrower") {
     width: 100%;
   }
 
-  @include breakpoint('<=mobile') {
+  @include breakpoint("<=mobile") {
     width: 100%;
   }
 
@@ -390,24 +390,24 @@ br.clear {
 .row {
   @include html-grid((40px, 40px));
 
-  @include breakpoint('wide') {
-    @include html-grid((40px, 40px), 'wide');
+  @include breakpoint("wide") {
+    @include html-grid((40px, 40px), "wide");
   }
 
-  @include breakpoint('normal') {
-    @include html-grid((40px, 40px), 'normal');
+  @include breakpoint("normal") {
+    @include html-grid((40px, 40px), "normal");
   }
 
-  @include breakpoint('narrow') {
-    @include html-grid((20px, 20px), 'narrow');
+  @include breakpoint("narrow") {
+    @include html-grid((20px, 20px), "narrow");
   }
 
-  @include breakpoint('<=narrower') {
-    @include html-grid((20px, 20px), 'narrower');
+  @include breakpoint("<=narrower") {
+    @include html-grid((20px, 20px), "narrower");
   }
 
-  @include breakpoint('<=mobile') {
-    @include html-grid((20px, 20px), 'mobile');
+  @include breakpoint("<=mobile") {
+    @include html-grid((20px, 20px), "mobile");
   }
 }
 
@@ -527,9 +527,9 @@ form {
     margin-bottom: 0.5em;
   }
 
-  input[type='text'],
-  input[type='email'],
-  input[type='password'],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
   select,
   textarea {
     position: relative;
@@ -544,7 +544,7 @@ form {
     padding: 0.75em 1em 0.75em 1em;
     box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
     border: solid 1px rgba(0, 0, 0, 0.15);
-    @include vendor('transition', 'all 0.35s ease-in-out');
+    @include vendor("transition", "all 0.35s ease-in-out");
 
     &:focus {
       box-shadow: 0 0 2px 1px #8ebebc;
@@ -552,9 +552,9 @@ form {
     }
   }
 
-  input[type='text'],
-  input[type='email'],
-  input[type='password'],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
   select {
     line-height: 1.25em;
   }
@@ -606,7 +606,7 @@ table {
     text-align: left;
     padding: 0.5em 1em 0.5em 1em;
     color: #fff;
-    background: #222729 url('../images/overlay.png');
+    background: #222729 url("../images/overlay.png");
   }
 
   thead {
@@ -621,9 +621,9 @@ table {
 
 /* Button */
 
-input[type='button'],
-input[type='submit'],
-input[type='reset'],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
 button,
 .button {
   position: relative;
@@ -636,13 +636,13 @@ button,
   border: 0;
   cursor: pointer;
   @include vendor(
-    'background-image',
+    "background-image",
     (
-      'linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15))',
+      "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15))",
       'url("../images/overlay.png")'
     )
   );
-  @include vendor('transition', 'background-color 0.35s ease-in-out');
+  @include vendor("transition", "background-color 0.35s ease-in-out");
 
   &:hover {
     background-color: #9ececc;
@@ -696,10 +696,10 @@ button,
 /* Header */
 
 #header {
-  @include vendor('display', 'flex');
-  @include vendor('flex-direction', 'column');
-  @include vendor('justify-content', 'space-between');
-  background: #222629 url('../images/overlay.png');
+  @include vendor("display", "flex");
+  @include vendor("flex-direction", "column");
+  @include vendor("justify-content", "space-between");
+  background: #222629 url("../images/overlay.png");
   box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
   color: #fff;
   height: 100%;
@@ -711,11 +711,11 @@ button,
   width: 375px;
 
   .top {
-    @include vendor('flex-grow', '1');
+    @include vendor("flex-grow", "1");
   }
 
   .bottom {
-    @include vendor('flex-shrink', '0');
+    @include vendor("flex-shrink", "0");
     padding: 1.5em 0 0.75em 0;
 
     > :last-child {
@@ -729,7 +729,7 @@ button,
 
     a {
       color: #41484c;
-      @include vendor('transition', 'color 0.35s ease-in-out');
+      @include vendor("transition", "color 0.35s ease-in-out");
 
       &:hover {
         color: #fff;
@@ -796,7 +796,7 @@ button,
         text-decoration: none;
         outline: 0;
         border: 0;
-        @include vendor('transition', 'none');
+        @include vendor("transition", "none");
 
         span {
           position: relative;
@@ -860,7 +860,7 @@ button,
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05),
       inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     text-align: center;
-    background-image: url('../images/overlay.png');
+    background-image: url("../images/overlay.png");
 
     &.dark {
       color: #ddd;
@@ -897,7 +897,7 @@ button,
 
     &.one {
       background-color: #3e261a;
-      background-image: url('../images/main3.jpg');
+      background-image: url("../images/main3.jpg");
     }
 
     &.two {
@@ -916,7 +916,7 @@ button,
 
 /* Wide */
 
-@include breakpoint('wide') {
+@include breakpoint("wide") {
   /* Basic */
 
   body,
@@ -947,7 +947,7 @@ button,
 
 /* Normal */
 
-@include breakpoint('normal') {
+@include breakpoint("normal") {
   /* Main */
 
   #main {
@@ -965,7 +965,7 @@ button,
 
 /* Narrow */
 
-@include breakpoint('narrow') {
+@include breakpoint("narrow") {
   /* Basic */
 
   body,
@@ -1049,7 +1049,7 @@ button,
   display: none;
 }
 
-@include breakpoint('<=narrower') {
+@include breakpoint("<=narrower") {
   /* Basic */
 
   html,
@@ -1092,9 +1092,9 @@ button,
   /* Header */
 
   #header {
-    @include vendor('backface-visibility', 'hidden');
-    @include vendor('transform', 'translateX(#{_size(header) * -1})');
-    @include vendor('transition', ('transform #{_duration(header)} ease'));
+    @include vendor("backface-visibility", "hidden");
+    @include vendor("transform", "translateX(#{_size(header) * -1})");
+    @include vendor("transition", ("transform #{_duration(header)} ease"));
     -webkit-overflow-scrolling: touch;
     display: block;
     height: 100%;
@@ -1105,7 +1105,7 @@ button,
     width: _size(header);
     z-index: _misc(z-index-base) + 2;
     width: _size(header);
-    background: #222729 url('../images/overlay.png');
+    background: #222729 url("../images/overlay.png");
     box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 
     .top {
@@ -1136,8 +1136,8 @@ button,
   }
 
   #headerToggle {
-    @include vendor('backface-visibility', 'hidden');
-    @include vendor('transition', 'transform #{_duration(header)} ease');
+    @include vendor("backface-visibility", "hidden");
+    @include vendor("transition", "transform #{_duration(header)} ease");
     display: block;
     height: 2.25em;
     left: 0;
@@ -1162,7 +1162,7 @@ button,
         font-weight: normal;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        content: '\f0c9';
+        content: "\f0c9";
         color: #fff;
         font-size: 18px;
         line-height: 2.25em;
@@ -1184,15 +1184,15 @@ button,
   .main-body {
     .header-visible {
       #main {
-        @include vendor('transform', 'translateX(#{_size(header)})');
+        @include vendor("transform", "translateX(#{_size(header)})");
       }
 
       #headerToggle {
-        @include vendor('transform', 'translateX(#{_size(header)})');
+        @include vendor("transform", "translateX(#{_size(header)})");
       }
 
       #header {
-        @include vendor('transform', 'translateX(0)');
+        @include vendor("transform", "translateX(0)");
       }
     }
   }
@@ -1206,8 +1206,8 @@ button,
   /* Main */
 
   #main {
-    @include vendor('backface-visibility', 'hidden');
-    @include vendor('transition', 'transform #{_duration(header)} ease');
+    @include vendor("backface-visibility", "hidden");
+    @include vendor("transition", "transform #{_duration(header)} ease");
     padding-bottom: 1px;
     margin-left: 0;
 
@@ -1225,7 +1225,7 @@ button,
 
 /* Mobile */
 
-@include breakpoint('<=mobile') {
+@include breakpoint("<=mobile") {
   /* Basic */
 
   body,
