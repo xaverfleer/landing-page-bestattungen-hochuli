@@ -9,7 +9,7 @@ const pic = require("../../assets/images/BeniHochuli.gif");
 export default function SideBar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
-    <div className={`${headerOpen ? "header-visible" : " "}`}>
+    <div className={`${headerOpen ? "header-visible" : ""}`}>
       <TopNav
         title={config.authorName}
         onMenuClick={() => toggleHeader(!headerOpen)}
