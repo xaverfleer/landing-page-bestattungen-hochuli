@@ -19,7 +19,7 @@ const IndexPage = () => (
     <SideBar sections={sections} />
 
     <div id="main">
-      <section className="one dark cover">
+      <section className="section--cover section--dark">
         <div className="container">
           <h2 className="alt">
             Hochuli <strong>Bestattungen</strong>

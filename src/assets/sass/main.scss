@@ -862,7 +862,7 @@ button,
     text-align: center;
     background-image: url("../images/overlay.png");
 
-    &.dark {
+    &.section--dark {
       color: #ddd;
       color: rgba(255, 255, 255, 0.75);
 
@@ -890,17 +890,6 @@ button,
       }
     }
 
-    &.cover {
-      padding: 10em 0;
-      background-size: cover;
-      background-position: center center;
-    }
-
-    &.one {
-      background-color: #3e261a;
-      background-image: url("../images/main3.jpg");
-    }
-
     &.two {
       background-color: #f5fafa;
     }
@@ -911,6 +900,14 @@ button,
 
     &.four {
       background-color: #e8edec;
+    }
+
+    &.section--cover {
+      background-color: #3e261a;
+      background-image: url("../images/main3.jpg");
+      padding: 10em 0;
+      background-size: cover;
+      background-position: center center;
     }
   }
 }
@@ -1260,16 +1257,6 @@ button,
   #main {
     > section {
       padding: 2em 0;
-    }
-
-    section {
-      &.cover {
-        padding: 4em 0em;
-
-        header {
-          padding: 0 1em;
-        }
-      }
     }
   }
 
