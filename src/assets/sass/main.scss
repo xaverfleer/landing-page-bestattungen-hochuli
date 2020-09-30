@@ -851,7 +851,7 @@ button,
 /* Main */
 
 #main {
-  margin-left: 375px;
+  margin-left: _size(header);
 
   > section {
     margin: 0;
@@ -930,19 +930,19 @@ button,
   /* Header */
 
   #header {
-    width: 325px;
+    width: _size(header--wide);
   }
 
   /* Footer */
 
   #footer {
-    margin-left: 300px;
+    margin-left: _size(header--wide);
   }
 
   /* Main */
 
   #main {
-    margin-left: 300px;
+    margin-left: _size(header--wide);
   }
 }
 
