@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: "Xaver Fleer",
   clientName: "Hochuli Bestattungen",
-  heading: "Kanton Bern und Umgebung",
+  heading: "Kanton Bern und Umgebung",
   // social
   socialLinks: [
     {
