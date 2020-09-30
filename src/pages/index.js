@@ -19,7 +19,7 @@ const IndexPage = () => (
     <SideBar sections={sections} />
 
     <div id="main">
-      <section id="top" className="one dark cover">
+      <section className="one dark cover">
         <div className="container">
           <h2 className="alt">
             Hochuli <strong>Bestattungen</strong>
@@ -44,7 +44,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="portfolio" className="two">
+      <section className="two">
         <div className="container">
           <header>
             <h2>Wer wir sind, Philosophie</h2>
@@ -79,7 +79,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="contact" className="four">
+      <section className="four">
         <div className="container">
           <header>
             <h2>Kontakt</h2>
