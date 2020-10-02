@@ -194,6 +194,17 @@ textarea {
   appearance: none;
 }
 
+/* BEM only */
+
+.section__title--cover {
+  font-size: _font(size3);
+  line-height: 1.2em;
+
+  strong {
+    color: _palette(bright--strong);
+  }
+}
+
 /* Basic */
 
 // Set box model to border-box.
@@ -266,14 +277,6 @@ h6 a {
 h2 {
   font-size: 2em;
   letter-spacing: -1px;
-
-  &.alt {
-    color: #888;
-
-    strong {
-      color: #666;
-    }
-  }
 }
 
 h3 {
@@ -290,12 +293,6 @@ header {
 
 footer {
   margin: 2em 0 0 0;
-}
-
-strong,
-b {
-  font-weight: 300;
-  color: #666;
 }
 
 em,
@@ -1250,5 +1247,9 @@ button,
         }
       }
     }
+  }
+
+  .section__title--cover {
+    font-size: _font(size2);
   }
 }
