@@ -21,7 +21,7 @@ const IndexPage = () => (
     <div id="main">
       <section className="section--cover section--dark">
         <div className="container">
-          <h2 className="alt">
+          <h2 className="alt section__title--cover">
             Hochuli <strong>Bestattungen</strong>
             <br />
           </h2>
